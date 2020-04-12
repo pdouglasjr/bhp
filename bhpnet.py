@@ -21,6 +21,10 @@ def usage():
     print "-l --listen\t\t\t- list on [host]:[port] for\n\t\t\t\t  incoming messages"
     print "-e --execute=file_to_run\t- execute the given file upon\n\t\t\t\t  receiving a connection"
     print "-c --command\t\t\t- initialize a command shell"
-    print "-u --upload=destination\t\t- upon receiving connection, upload a file and write to [destination]"
+    print "-u --upload=destination\t\t- upon receiving connection, upload a\n\t\t\t\t  file and write to [destination]"
+    print
+    print
+    print "Examples:"
+    print "bhpnet.py "
 
 usage()
